@@ -25,3 +25,11 @@ console.log(!!null)
 let nome = ''
 
 console.log(nome || 'teste')
+
+isActive = 0
+console.log(!isActive)
+console.log(!!isActive)
+
+isActive = 1
+console.log(!!isActive)
+console.log(!isActive)
